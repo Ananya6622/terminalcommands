@@ -1,0 +1,35 @@
+mkdir work3
+cd work3
+touch a.txt b.txt
+nano a.txt
+cat a.txt
+head -2 a.txt
+cat a.txt | grep shiva | awk '{print $2}'
+find -b.txt
+find -name b.txt
+tail -2 a.txt
+echo hello
+rm b.txt
+mkdir work4
+rm -r work4
+rm -rf .git
+git init
+git remote add origin https://github.com/Ananya6622/text.git
+git init
+touch d.txt
+git add d.txt
+git commit -m "added"
+git push origin master
+git checkout -b LA1
+touch e.txt f.txt
+git add .
+git commit -m "Added"
+git push origin LA1
+git checkout master
+git merge LA1
+git push origin master
+git checkout LA1
+git branch -m LA1 demola
+  363  git branch
+  364  git push origin --delete LA1
+  365  git push origin demola
